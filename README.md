@@ -25,8 +25,8 @@ Example:
 
 ## Tips
 
-	`./fRid4-sEv3r -l 0.0.0.0:8888` change default listen port
-	`Ctrl + d` to detach
+`./fRid4-sEv3r -l 0.0.0.0:8888` change default listen port
+`Ctrl + d` to detach
 
 
 ### Locate class by package name 
