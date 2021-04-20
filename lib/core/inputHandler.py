@@ -8,7 +8,7 @@ def handler():
     args = parseArg.cmdArgParser()
 
     PROCESS = args.name
-    PACKAGE = args.spwan
+    PACKAGE = args.spawn
     PID = args.pid
     TYPE_USB = args.usb
     HOST = args.host
@@ -38,7 +38,7 @@ def handler():
     if PROCESS:
         load_type = "process"   # attach
     elif PACKAGE:
-        load_type = "package"   # spwan
+        load_type = "package"   # spawn
     elif PID:
         load_type = "pid"  # attach
 

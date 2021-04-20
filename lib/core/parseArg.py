@@ -11,7 +11,7 @@ def cmdArgParser():
     parser.add_argument('-U',dest='usb',action='store_true',help="Connect to device via USB")
     parser.add_argument('-H','--host',help="Connect to remote host (ip:port)")
     parser.add_argument('-n','--name',help="Process name to attach")
-    parser.add_argument('-f','--spwan',help="Spwan package: (Accept package name)")
+    parser.add_argument('-f','--spawn',help="Spawn package: (Accept package name)")
     parser.add_argument('-p','--pid',help="Target process id")
     parser.add_argument('-c','--classname',help="Target classname")
     parser.add_argument('-l','--load',help="Specify script path to load")

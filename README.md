@@ -25,8 +25,9 @@ Example:
 
 ## Tips
 
-	`./fRid4-sEv3r -l 0.0.0.0:8888` change default listen port
-	`Ctrl + d` to detach
+`sudo ln -s /home/xyz/.../PTHK/pthk.py /usr/bin/pthk` create a soft link </br>
+`./fRid4-sEv3r -l 0.0.0.0:8888` change default listen port </br>
+`Ctrl + d` to detach
 
 
 ### Locate class by package name 
