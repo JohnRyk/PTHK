@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import os
+import sys
 from lib.load import hooker
 
 enum_classes_js = '''
@@ -80,7 +81,7 @@ def load_build_in(device, load_type, func_type, args):
 def get_script_path(func_type):
     script_name = ""
     script_path = ""
-    script_perfix = "lib/script/"
+    script_perfix = sys.path[0] + "/lib/script/"
     if func_type == "load" or func_type == "enum":
         return ""
     if func_type == "echo":
